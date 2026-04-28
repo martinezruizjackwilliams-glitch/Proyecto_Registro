@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Android build artifacts
+android/.gradle/
+android/app/build/
+android/build/
+
+# iOS build artifacts
+ios/App/Pods/
+ios/DerivedData/
+
+# IDE & OS artifacts
+.idea/
+.vscode/
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
